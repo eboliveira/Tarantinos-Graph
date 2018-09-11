@@ -1,0 +1,32 @@
+#ie-advisory{
+	display:none;
+	padding: 15px 0;
+}
+.ie-advisory__content {
+    max-width: 500px;	
+		margin-left: auto;
+		margin-right: auto;
+		color: #fff;
+		text-align: center;
+}
+#ie-advisory .warning-icon{
+    display: inline-block;
+    margin-right: 10px;	
+		vertical-align: middle;
+}
+#ie-advisory .warning-msg{
+    display: inline-block;
+		font-size: 14px;
+}
+@media (max-width: 1000px) {
+	#ie-advisory{
+	    width: 90%;	
+	}
+	#ie-advisory .warning-msg{
+		padding-left:10%;
+	}	
+}
+
+.header-ad-container .amcn-dfp.top {
+	height: auto!important;
+}
